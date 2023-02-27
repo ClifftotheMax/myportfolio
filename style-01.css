@@ -152,3 +152,119 @@
     position: relative;
     width: 250px;
 }
+
+@media screen and (max-width: 1080px) {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+display: none;
+}
+
+.hexgon {
+display: none;
+}
+
+.purple-circle {
+display: none;
+}
+
+.line-circle {
+display: none;
+}
+
+.shadow {
+display: none;
+}
+
+.logo h2 {
+    position: absolute;
+    z-index: 2;
+    font-family: 'Sacramento', cursive;
+    text-shadow: rgba(0, 0, 0, 0.065) 5px 5px;
+    font-size: 50px;
+    color: #1b1b1b; 
+    top: 30px;
+    left: 30px;
+}
+
+.text {
+    position: absolute;
+    margin: 5px; 
+    padding: 10px 20px 20px 20px;
+    color: #000;
+    background-color: rgba(133, 171, 233, 0.398);
+    border: 25px 25px 25px 25px;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: 12px;
+    top: 150px;
+    left: 10px;
+    text-align: left;
+}
+
+.h1-text {
+    position: relative;
+    padding: 0px 0px 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text-2 {
+    position: absolute;
+    margin: 5px; 
+    padding: 10px 20px 20px 20px;
+    color: #000;
+    background-color: rgba(133, 171, 233, 0.398);
+    border: 25px 25px 25px 25px;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: 12px;
+    top: 400px;
+    left: 10px;
+}
+
+.menu {
+    position: absolute;
+    top: 100px;
+    left: 25px;
+}
+
+.menu ul {
+    position: relative;
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+
+}
+
+.menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 10px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #111;
+    transition: all .3s ease-in-out;
+}
+
+.menu ul li a:hover {
+    transform: rotate(-20deg);
+    color: #000;
+    background: rgba(222, 55, 203, 0.722);
+    border: 10px;
+    border-radius: 25px;
+    font-size: 110%;
+}
+
+}
