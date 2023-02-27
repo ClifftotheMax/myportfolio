@@ -266,24 +266,20 @@ display: none;
 
 /* Illustrations Grid */
 
-
-.row div {
-
-}
 .row {
     position: absolute;
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
-    top: 300px; right: 10px;
+    top: 300px; 
 }
 
 .column-1 img {
     position: relative;
     margin: 1px;
     padding: 5px 5px 5px 5px;
+    margin: 0 5px 0 0;
     width: 100px;
-    left: 5%;
 }
 
 }
