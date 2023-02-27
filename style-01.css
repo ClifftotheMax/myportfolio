@@ -51,7 +51,7 @@
     z-index: 2;
     font-family: 'Sacramento', cursive;
     text-shadow: rgba(0, 0, 0, 0.065) 5px 5px;
-    font-size: 120px;
+    font-size: 80px;
     color: #1b1b1b; 
     top: 70px;
     left: 100px;
@@ -121,7 +121,7 @@
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 20px;
     padding: 10px 20px;
     font-family: 'Montserrat', sans-serif; 
     color: #111;
@@ -134,7 +134,7 @@
     background: rgba(222, 55, 203, 0.722);
     border: 20px;
     border-radius: 50px;
-    font-size: 250%;
+    font-size: 200%;
 }
 
 /* Illustrations Grid */
@@ -151,4 +151,13 @@
 .column-1 img {
     position: relative;
     width: 250px;
+}
+
+
+@media (max-width: 1080px) {
+
+body {
+    background-color: white;
+}
+
 }
