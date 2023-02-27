@@ -277,7 +277,7 @@ display: none;
     position: relative;
     padding: 5px 5px 5px 5px;
     width: 100px;
-    left: 5%;
+    left: 5%; right: 10%;
 }
 
 }
